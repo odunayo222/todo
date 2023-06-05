@@ -1,0 +1,145 @@
+/* Include the padding and border in an element's total width and height */
+body {
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: #a67f78;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  }
+  h1 {
+    color: rgba(255, 255, 255, 0.727);
+  }
+  
+  /* Remove margins and padding from the list */
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #f9f9f92a;
+    color: whitesmoke;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  /* Darker background-color on hover */
+  /* ul li:hover {
+    background: ;
+  } */
+  
+  /* When clicked on, add a background color and strike out text */
+  ul li.checked {
+    text-decoration: line-through;
+  }
+  
+  /* Add a "checked" mark when clicked on */
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f939;
+  }
+  
+
+  
+  /* Style the input */
+  input[type=text] {
+    margin-top: 30px; 
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    width: 80%;
+    font-size: 16px;
+    background-color: transparent;
+    color: whitesmoke;
+  }
+  input[type=submit] {
+    margin: 10px; 
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background-color: transparent;
+    color: antiquewhite;
+    font-size: 16px;
+  }
+input[type=submit]:hover {
+    background-color: black;
+    color: wheat;
+}
+
+div {
+    background-color: #162719;
+    padding: 100px;
+    margin: auto;
+    width: 80%;
+}
+
+@media (max-width: 900px) {
+    div {
+        background-color: #162719;
+        margin: auto;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        
+    }
+    input[type=text] {
+        /* margin-top: 10px;  */
+        padding: 20px;
+        border: 2px solid whitesmoke;
+        border-radius: 25px;
+        width: auto;
+        font-size: 16px;
+        background-color: transparent;
+        color: whitesmoke;
+    }
+      input[type=submit] {
+       display: none;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      ul li {
+        cursor: pointer;
+        position: relative;
+        /* padding: 12px 8px 12px 40px; */
+        background: #f9f9f92a;
+        color: whitesmoke;
+        font-size: 18px;
+        transition: 0.2s;
+      
+        /* make the list items unselectable */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+}
