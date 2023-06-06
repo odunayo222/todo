@@ -156,3 +156,23 @@ div {
         margin: 50px 10px 0px 10px;
       }
 }
+@media (max-width: 400px) {
+  input[type=submit] { 
+    width: 20%;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    background-color: transparent;
+    color: antiquewhite;
+    font-weight: bolder;
+  }
+  input[type=text] {
+    margin-top: 10px; 
+    padding: 12px;
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    width: 60%;
+    font-size: 16px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+}
