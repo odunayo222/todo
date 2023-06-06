@@ -116,9 +116,9 @@ div {
         background-color: transparent;
         color: whitesmoke;
     }
-      input[type=submit] {
+      /* input[type=submit] {
        display: none;
-      }
+      } */
       h1 {
         font-size: 20px;
       }
