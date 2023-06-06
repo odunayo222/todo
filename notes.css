@@ -116,6 +116,7 @@ div {
         font-size: 16px;
         background-color: transparent;
         color: whitesmoke;
+        margin-top: 20px; 
     }
       /* input[type=submit] {
        display: none;
@@ -151,6 +152,7 @@ div {
         background-color: transparent;
         color: antiquewhite;
         font-weight: bolder;
+        margin-top: 20px; 
       }
       body {
         margin: 50px 10px 0px 10px;
@@ -164,9 +166,10 @@ div {
     background-color: transparent;
     color: antiquewhite;
     font-weight: bolder;
+    margin-top: 20px; 
   }
   input[type=text] {
-    margin-top: 10px; 
+    margin-top: 20px; 
     padding: 15px;
     border: 2px solid whitesmoke;
     border-radius: 25px;
