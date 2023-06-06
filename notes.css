@@ -158,7 +158,7 @@ div {
 }
 @media (max-width: 400px) {
   input[type=submit] { 
-    width: 20%;
+    width: 15%;
     border: 2px solid whitesmoke;
     border-radius: 25px;
     background-color: transparent;
@@ -167,7 +167,7 @@ div {
   }
   input[type=text] {
     margin-top: 10px; 
-    padding: 12px;
+    padding: 15px;
     border: 2px solid whitesmoke;
     border-radius: 25px;
     width: 60%;
