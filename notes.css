@@ -1,6 +1,7 @@
 /* Include the padding and border in an element's total width and height */
 body {
-    margin-top: 50px;
+    margin: 100px;
+
     box-sizing: border-box;
     background-color: #a67f78;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
@@ -103,12 +104,12 @@ div {
         margin: auto;
         width: auto;
         height: auto;
-        padding: 20px;
+        padding: 30px;
         
     }
     input[type=text] {
         /* margin-top: 10px;  */
-        padding: 20px;
+        padding: 15px;
         border: 2px solid whitesmoke;
         border-radius: 25px;
         width: auto;
@@ -141,5 +142,17 @@ div {
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+      }
+      input[type=submit] { 
+        padding: 15px;
+        /* width: auto; */
+        border: 2px solid whitesmoke;
+        border-radius: 25px;
+        background-color: transparent;
+        color: antiquewhite;
+        font-weight: bolder;
+      }
+      body {
+        margin: 50px 10px 0px 10px;
       }
 }
